@@ -25085,6 +25085,14 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <sheets>
 <sheet>
 <plain>
+<frame x1="-185.42" y1="-45.72" x2="261.62" y2="167.64" columns="8" rows="5" layer="91"/>
+<text x="-175.26" y="-27.94" size="1.778" layer="91">Author</text>
+<text x="-175.26" y="-20.32" size="1.778" layer="91">Project</text>
+<text x="-175.26" y="-35.56" size="1.778" layer="91">Date</text>
+<text x="-162.56" y="-27.94" size="1.778" layer="91">Marcin Borowicz</text>
+<text x="-162.56" y="-20.32" size="1.778" layer="91">Retroduino-S1</text>
+<text x="-162.56" y="-35.56" size="1.778" layer="91">2018-10-28</text>
+<text x="-139.7" y="-20.32" size="1.778" layer="91">8051-based Arduino-compatible microcomputer</text>
 </plain>
 <instances>
 <instance part="IC6" gate="G$1" x="104.14" y="68.58" smashed="yes">
@@ -26976,6 +26984,26 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="137.16" y1="25.4" x2="137.16" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="IC7" gate="G$1" pin="!CE"/>
 <wire x1="137.16" y1="48.26" x2="142.24" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<wire x1="-177.8" y1="-38.1" x2="-177.8" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-177.8" y1="-30.48" x2="-177.8" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="-177.8" y1="-22.86" x2="-177.8" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="-177.8" y1="-15.24" x2="-165.1" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="-165.1" y1="-15.24" x2="-142.24" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="-15.24" x2="-83.82" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="-83.82" y1="-15.24" x2="-83.82" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="-83.82" y1="-22.86" x2="-83.82" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-83.82" y1="-30.48" x2="-83.82" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="-83.82" y1="-38.1" x2="-165.1" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="-165.1" y1="-38.1" x2="-177.8" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="-177.8" y1="-22.86" x2="-142.24" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="-22.86" x2="-83.82" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="-177.8" y1="-30.48" x2="-83.82" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-165.1" y1="-38.1" x2="-165.1" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="-22.86" x2="-142.24" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
