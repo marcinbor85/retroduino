@@ -34,5 +34,8 @@ Open hardware 8051-based arduino-compatible microcomputer
 - 0x8000-0xFFFF - external data memory
 
 ## TODO
-- external boards with digital and analog input/outputs
+- [ ] external boards with digital and analog input/outputs
+- [ ] PC application to loading code to the retroduino board
+- [ ] bootloader with code loading, flashing, coping and app running
+- [ ] example firmware applications
 
