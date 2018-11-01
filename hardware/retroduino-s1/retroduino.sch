@@ -25093,6 +25093,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <text x="-162.56" y="-20.32" size="1.778" layer="91">Retroduino-S1</text>
 <text x="-162.56" y="-35.56" size="1.778" layer="91">2018-10-28</text>
 <text x="-139.7" y="-20.32" size="1.778" layer="91">8051-based Arduino-compatible microcomputer</text>
+<text x="-139.7" y="-27.94" size="1.778" layer="91">marcinbor85@gmail.com</text>
 </plain>
 <instances>
 <instance part="IC6" gate="G$1" x="104.14" y="68.58" smashed="yes">
@@ -27001,9 +27002,11 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="-165.1" y1="-38.1" x2="-177.8" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="-177.8" y1="-22.86" x2="-142.24" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="-142.24" y1="-22.86" x2="-83.82" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="-177.8" y1="-30.48" x2="-83.82" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-177.8" y1="-30.48" x2="-142.24" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="-30.48" x2="-83.82" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="-165.1" y1="-38.1" x2="-165.1" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="-142.24" y1="-22.86" x2="-142.24" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="-30.48" x2="-142.24" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
