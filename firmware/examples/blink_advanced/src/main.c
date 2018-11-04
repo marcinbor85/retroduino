@@ -2,13 +2,34 @@
 
 #include "bsp/bsp.h"
 
+#include "sys/tick.h"
+
 #include "types.h"
 
-void external0_isr(void)        __interrupt(0) __naked { __asm__("ljmp 0x8003"); }
-void timer0_isr(void)           __interrupt(1) __naked { __asm__("ljmp 0x800B"); }
-void external1_isr(void)        __interrupt(2) __naked { __asm__("ljmp 0x8013"); }
-void timer1_isr(void)           __interrupt(3) __naked { __asm__("ljmp 0x801B"); }
-void serialport_isr(void)       __interrupt(4) __naked { __asm__("ljmp 0x8023"); }
+void external0_isr(void) __interrupt(0)
+{
+
+}
+
+void timer0_isr(void) __interrupt(1)
+{
+        tick_increment();
+}
+
+void external1_isr(void) __interrupt(2)
+{
+
+}
+
+void timer1_isr(void) __interrupt(3)
+{
+
+}
+
+void serialport_isr(void) __interrupt(4)
+{
+
+}
 
 void main(void)
 {
@@ -17,7 +38,6 @@ void main(void)
         logic_init();
 
         while (1) {
-                tick_service();
                 bsp_service();
                 logic_service();
         }

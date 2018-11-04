@@ -3,7 +3,7 @@
 
 #include "types.h"
 
-//#define TICK_ISR_BASED 1
+#define TICK_ISR_BASED 1
 
 #ifndef TICK_ISR_BASED
 #define TICK_SERVICE_BASED 1

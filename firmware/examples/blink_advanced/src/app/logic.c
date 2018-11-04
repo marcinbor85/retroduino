@@ -1,10 +1,14 @@
 #include "logic.h"
 
+#include "bsp/led.h"
+
+#include "sys/tick.h"
+
 #include "types.h"
 
 void logic_init(void)
 {
-
+        led_set_state(1);
 }
 
 void blink_led_service(void)
