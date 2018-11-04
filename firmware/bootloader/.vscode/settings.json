@@ -1,0 +1,18 @@
+{
+        "files.associations": {
+                "poll.h": "c",
+                "bsp.h": "c",
+                "boot.h": "c",
+                "logic.h": "c",
+                "at89s8253.h": "c",
+                "stdint.h": "c",
+                "spi.h": "c"
+        },
+        "C_Cpp.default.systemIncludePath": [
+                "/usr/share/sdcc/include/mcs51/"
+        ],
+        "editor.insertSpaces": true,
+        "editor.tabSize": 8,
+        "editor.detectIndentation": false,
+        "C_Cpp.default.cppStandard": "c++11",
+}
