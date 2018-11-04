@@ -1,0 +1,26 @@
+{
+        "folders": [
+                {
+                        "path": "bootloader"
+                },
+                {
+                        "path": "examples/blink_advanced"
+                },
+                {
+                        "path": "examples/blink_simple"
+                }
+        ],
+        "settings": {
+                "files.associations": {
+                        "poll.h": "c",
+                        "bsp.h": "c",
+                        "boot.h": "c",
+                        "logic.h": "c",
+                        "at89s8253.h": "c",
+                        "stdint.h": "c",
+                        "spi.h": "c",
+                        "tick.h": "c",
+                        "types.h": "c"
+                }
+        }
+}
