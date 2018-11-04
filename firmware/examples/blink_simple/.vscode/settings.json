@@ -1,0 +1,6 @@
+{
+        "C_Cpp.default.systemIncludePath": [
+                "/usr/share/sdcc/include/mcs51/"
+        ],
+        "C_Cpp.default.cppStandard": "c++11",
+}
