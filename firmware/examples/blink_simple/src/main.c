@@ -1,8 +1,9 @@
 #include <at89s8253.h>
+#include <stdint.h>
 
 #define LED_PIN_STATE      P1_0
 
-static void delay(int val)
+static void delay(uint16_t val)
 {
         while (val-- > 0) {};
 }
